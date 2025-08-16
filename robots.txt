@@ -1,0 +1,22 @@
+# robots.txt for https://mugacai.com.au/
+# Controls how search engines crawl and index the site
+
+# Apply rules to all search engines
+User-agent: *
+
+# Allow everything by default
+Allow: /
+
+# Block crawling of non-essential asset folders
+Disallow: /css/
+Disallow: /js/
+Disallow: /vendor/
+Disallow: /plugins/
+Disallow: /tmp/
+Disallow: /admin/   # only if you ever add a back-office section
+
+# Crawl-delay (optional) - useful if hosting is very lightweight
+# Crawl-delay: 10
+
+# Sitemap declaration
+Sitemap: https://mugacai.com.au/sitemap.xml
